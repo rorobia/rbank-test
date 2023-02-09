@@ -14,21 +14,21 @@ The project will initialize at port(s): 8080 (http). There is only 1 endpoint at
 curl --location --request GET 'http://localhost:8080/calendar-schedule' \
 --header 'Content-Type: application/json' \
 --data-raw '[
-    {
+    	{
 		"duration": 1,
-        "name": "Garden Mowing"
+        	"name": "Garden Mowing"
 	},
 	{
-        "name": "Room Renovation",
+        	"name": "Room Renovation",
 		"duration": 3,
 		"subTasks" : [
 			{
 				"duration" : 2,
-                "name": "Cleaning"
+                		"name": "Cleaning"
 			},
 			{
 				"duration" : 2,
-                "name": "Repaint"
+                		"name": "Repaint"
 			}
 		]
 	}
